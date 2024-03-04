@@ -1,7 +1,7 @@
 
 function NavBar({ children }){
     return (
-        <nav className="navbar p-2 border-rounded d-flex flex-row align-items-center justify-content-center" style={{backgroundColor: "#D3D3D3"}}>
+        <nav className="p-2 border-rounded d-flex flex-row align-items-center justify-content-center" style={{backgroundColor: "#eee"}}>
             {
                 children ? (
                     children.map(
